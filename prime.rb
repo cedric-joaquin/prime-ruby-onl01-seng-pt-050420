@@ -1,4 +1,5 @@
 def prime?(int)
-  multiples = (1..int).to_a 
-  multiples.any? ()
+  multiples = (2..int-1).to_a 
+  multiples.any? do |num|
+    
 end
