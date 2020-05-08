@@ -1,1 +1,3 @@
-# Add  code here!
+def prime?(int)
+  (1..int).to_a 
+end
