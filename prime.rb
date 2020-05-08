@@ -1,3 +1,4 @@
 def prime?(int)
-  (1..int).to_a 
+  multiples = (1..int).to_a 
+  multiples.any? ()
 end
